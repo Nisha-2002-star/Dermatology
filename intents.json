@@ -1,0 +1,301 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": "Hi there, what can I do for you?",
+            "Precaution": " "
+               
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": "See you later, thanks for visiting <br>Have a nice day",
+            "Precaution": " "
+            
+        },
+
+        {
+            "tag": "work",
+            "patterns": [
+                "how do you work",
+                "what algorithm","algorithm use", "how your algorithm works"
+            ],
+            "responses": "Sorry I can't say that !!! If you realy want to know you can contact us",
+            "Precaution": " "
+            
+        },
+
+        {
+            "tag":"who",
+            "patterns": [
+                "who are you","who you", "tell about  you", "describe","you", "what you", "can do", "what you do"
+            ],
+            "responses": "I am Symptom checker, you can enter your the symptoms you have and you can det a list of potential conditions that you may have !!",
+            "Precaution": " "
+            
+        },
+
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": "Happy to help! Any time you need ! ",
+            "Precaution": " "
+        },
+
+
+
+        {
+            "tag": "Allergy",
+            "patterns": [
+                "continuous sneezing, watering from eyes, chills, shivering",
+                "continuous sneezing, watering from eyes"
+            ],
+            "responses": "You may have Allergy. Allergy is a hypersensitivity disorder of the immune system. Common symptoms include continuous sneezing, shivering, chills, and watering from the eyes.<br>To manage Allergy, consider the following: <br>1. Identify and avoid allergens that trigger your symptoms.<br>2. Use antihistamines or decongestants as recommended by a doctor.<br>3. Keep your living space clean and dust-free.<br>4. Consult with an allergist for further evaluation and treatment options.",
+            "Precaution": "To avoid allergy:<br>1. Identify and avoid allergens.<br>2. Keep indoor environments clean and dust-free.<br>3. Take allergy medications as prescribed.<br>4. Consider allergy shots for long-term relief."
+        },
+        {
+            "tag": "Chronic Cholestasis",
+            "patterns": [
+                "loss of appetite, itching, abdominal pain, yellowish skin, vomiting, nausea, yellowing of eyes",
+                "itching, abdominal pain, yellowish skin, vomiting, yellowing of eyes",
+                "loss of appetite, itching, vomiting, nausea, yellowing of eyes"
+            ],
+            "responses": "You have Chronic Cholestasis. This is a condition affecting the liver and bile ducts.<br>Recommended actions:<br>1. Consult a doctor for diagnosis and treatment.<br>2. Medications may be prescribed to manage symptoms.<br>3. Follow dietary recommendations.<br>4. Monitor liver function regularly.",
+            "Precaution":"To avoid chronic cholestasis:<br>1. Manage underlying liver conditions.<br>2. Follow a liver-healthy diet.<br>3. Avoid excessive alcohol consumption.<br>4. Take prescribed medications as directed."
+        },
+
+
+
+
+        {
+            "tag": "Acne",
+            "patterns": [
+                "blackheads, skin rash, scurring, pus filled pimples",
+                "skin rash, scurring, pus filled pimples",
+                "blackheads, skin rash, pimples"
+            ],
+            "responses": "You have Acne. This is a common skin condition characterized by pimples and skin inflammation.<br>Recommended actions:<br>1. Maintain good skincare hygiene.<br>2. Use acne treatments recommended by a dermatologist.<br>3. Avoid picking or squeezing pimples.<br>4. Consider dietary and lifestyle changes.",
+            "Precaution":"To avoid acne:<br>1. Maintain a daily skincare routine.<br>2. Avoid excessive washing and harsh products.<br>3. Manage stress.<br>4. Consider topical or oral acne treatments as recommended by a dermatologist."
+        },
+        {
+            "tag": "Psoriasis",
+            "patterns": [
+                "inflammatory nails, small dents in nails, skin rash, silver like dusting, skin peeling, joint pain,Plaque psoriasis, Skin pain, Nail psoriasis,Itchy skin",
+                "skin peeling, joint pain,Plaque psoriasis, Skin pain, Nail psoriasis ,Itchy skin",
+                "skin rash, silver like dusting, Skin pain, Nail psoriasis, Itchy skin"
+            ],
+            "responses": "You have Psoriasis. This is a chronic skin condition with various symptoms.<br>Recommended actions:<br>1. Consult a dermatologist for proper diagnosis.<br>2. Treatments may include topical medications and phototherapy.<br>3. Moisturize regularly and avoid triggers.<br>4. Manage stress to reduce flare-ups.",
+            "Precaution":"To avoid psoriasis:<br>1. Follow a skincare routine and keep skin moisturized.<br>2. Manage stress to prevent flare-ups.<br>3. Consider phototherapy or topical treatments.<br>4. Adhere to prescribed medications and therapies."
+        },
+        {
+            "tag": "Impetigo",
+            "patterns": [
+                "blister, high fever, red sore around nose, yellow crust ooze, skin rash",
+                "high fever, red sore around nose, skin rash"
+            ],
+            "responses": "You have Impetigo. This is a highly contagious skin infection.<br>Recommended actions:<br>1. Consult a doctor for diagnosis and antibiotic treatment.<br>2. Maintain good hygiene to prevent spreading.<br>3. Avoid close contact with others during infection.<br>4. Follow prescribed medications and creams.",
+            "Precaution":"To avoid impetigo:<br>1. Practice good hand hygiene.<br>2. Avoid close skin-to-skin contact.<br>3. Use a clean towel and clothing.<br>4. Take prescribed antibiotics as directed."
+        },
+        {
+            "tag": "Fungal Infection",
+            "patterns": [
+                "dischromic patches, nodal skin eruptions, skin rash, itching",
+                "dischromic patches, skin rash, itching",
+                "nodal skin eruptions, skin rash, itching"
+            ],
+            "responses": "You have a Fungal Infection. This can affect the skin and cause various symptoms.<br>Recommended actions:<br>1. Consult a dermatologist for diagnosis and antifungal treatment.<br>2. Keep the affected area clean and dry.<br>3. Avoid tight clothing that can trap moisture.<br>4. Practice good personal hygiene.",
+            "Precaution":"To avoid fungal infection:<br>1. Keep skin clean and dry.<br>2. Avoid sharing personal items.<br>3. Use antifungal creams or medications as directed.<br>4. Wear clean and breathable clothing."
+        },
+
+        {
+            "tag": "Eczema",
+            "patterns": [
+                "itchy and inflamed skin, redness, rash",
+                "itchy skin, redness, rash"
+            ],
+            "responses": "You might have Eczema (Atopic Dermatitis). It's a skin condition characterized by itchy and inflamed patches of skin.<br>Recommended actions:<br>1. Consult a dermatologist for diagnosis and treatment.<br>2. Moisturize regularly and avoid triggers that worsen eczema.<br>3. Topical corticosteroids and other medications can help manage symptoms.",
+            "Precaution":"To avoid eczema:<br>1. Keep skin moisturized and avoid irritants.<br>2. Use hypoallergenic products.<br>3. Manage stress to prevent flare-ups.<br>4. Consider topical treatments as prescribed by a dermatologist."
+        },
+        {
+            "tag": "Lupus",
+            "patterns": [
+                "joint pain, skin rash, fatigue, fever",
+                "joint pain, skin rash, stiffness , swelling",
+                "skin rash, stiffness , swelling"
+            ],
+            "responses": "You may have Lupus (Systemic Lupus Erythematosus). It's an autoimmune disease that can affect various parts of the body.<br>Recommended actions:<br>1. Consult a healthcare professional for diagnosis and management.<br>2. Treatment may involve medications to control inflammation and symptoms.",
+            "Precaution":"To avoid lupus:<br>1. Manage stress and get adequate rest.<br>2. Use sunscreen and avoid UV exposure.<br>3. Take prescribed medications and follow treatment plans.<br>4. Maintain regular check-ups with a rheumatologist."
+        },
+
+
+        {
+        "tag": "Chickenpox",
+        "patterns": [
+            "itchy red spots, fever, tiredness, headache, Chickenpox",
+            "rash, blisters, fever"
+        ],
+        "responses": "You may have Chickenpox. This is a contagious viral infection causing an itchy rash and flu-like symptoms.<br>Recommended actions:<br>1. Get plenty of rest and stay hydrated.<br>2. Apply calamine lotion to reduce itching.<br>3. Avoid scratching to prevent scars.<br>4. Consult a doctor if symptoms worsen.",
+        "Precaution": "To prevent Chickenpox:<br>1. Get vaccinated.<br>2. Avoid close contact with infected individuals.<br>3. Maintain good hygiene.<br>4. Strengthen your immune system with a healthy diet."
+    },
+    {
+        "tag": "Measles",
+        "patterns": [
+            "high fever, cough, runny nose, red eyes, rash, Measles",
+            "rash starting on face, fever, white spots in mouth"
+        ],
+        "responses": "You may have Measles. It is a highly contagious viral infection that causes fever, rash, and respiratory symptoms.<br>Recommended actions:<br>1. Rest and stay hydrated.<br>2. Take fever-reducing medications as advised.<br>3. Use humidifiers for throat relief.<br>4. Seek medical attention if symptoms persist.",
+        "Precaution": "To prevent Measles:<br>1. Get vaccinated with the MMR vaccine.<br>2. Avoid close contact with infected individuals.<br>3. Maintain good hygiene.<br>4. Boost your immune system."
+    },
+    {
+        "tag": "Monkeypox",
+        "patterns": [
+            "fever, swollen lymph nodes, rash, body aches, Monkeypox",
+            "blisters, fever, headache, back pain"
+        ],
+        "responses": "You may have Monkeypox. It is a viral infection causing flu-like symptoms and a rash.<br>Recommended actions:<br>1. Isolate yourself to prevent spread.<br>2. Keep rashes clean and dry.<br>3. Take pain relievers for symptom relief.<br>4. Consult a healthcare provider for proper management.",
+        "Precaution": "To prevent Monkeypox:<br>1. Avoid contact with infected individuals and animals.<br>2. Maintain good hand hygiene.<br>3. Wear protective gear when handling infected materials.<br>4. Get vaccinated if at risk."
+    },
+    {
+        "tag": "Eczema",
+        "patterns": [
+            "dry skin, redness, itching, inflammation , Eczema",
+            "scaly patches, rough skin, cracked skin"
+        ],
+        "responses": "You may have Eczema. It is a chronic skin condition causing dry, itchy, and inflamed skin.<br>Recommended actions:<br>1. Moisturize regularly.<br>2. Use gentle skincare products.<br>3. Avoid triggers like allergens and stress.<br>4. Seek dermatological advice if symptoms persist.",
+        "Precaution": "To manage Eczema:<br>1. Keep skin hydrated.<br>2. Avoid harsh soaps and irritants.<br>3. Wear soft, breathable clothing.<br>4. Maintain a balanced diet to reduce flare-ups."
+    },
+    {
+        "tag": "Psoriasis",
+        "patterns": [
+            "scaly red patches, dry skin, itching, joint pain, Psoriasis",
+            "thickened skin, white scales, cracked skin"
+        ],
+        "responses": "You may have Psoriasis. It is an autoimmune condition causing rapid skin cell turnover and scaling.<br>Recommended actions:<br>1. Apply medicated creams.<br>2. Keep skin moisturized.<br>3. Avoid stress and known triggers.<br>4. Consult a dermatologist for treatment options.",
+        "Precaution": "To manage Psoriasis:<br>1. Use prescribed skincare products.<br>2. Maintain a healthy diet and lifestyle.<br>3. Limit alcohol and smoking.<br>4. Reduce stress through relaxation techniques."
+    },
+
+        {
+        "tag": "Acne Prone Skin",
+        "patterns": [
+            "frequent breakouts, oily skin, clogged pores,Acne Prone Skin",
+            "pimples, blackheads, whiteheads, inflammation"
+        ],
+        "responses": "You have Acne-Prone Skin. This means your skin is more likely to develop pimples and clogged pores due to excess oil production.<br>Recommended actions:<br>1. Use a gentle, oil-free cleanser.<br>2. Apply non-comedogenic skincare products.<br>3. Avoid touching your face frequently.<br>4. Consult a dermatologist for severe acne.",
+        "Precaution": "To care for Acne-Prone Skin:<br>1. Wash your face twice daily with a mild cleanser.<br>2. Use oil-free and non-comedogenic skincare and makeup products.<br>3. Avoid excessive scrubbing or harsh exfoliation.<br>4. Maintain a healthy diet and stay hydrated."
+    },
+    {
+        "tag": "Combination Skin",
+        "patterns": [
+            "oily T-zone, dry cheeks, occasional breakouts,Combination Skin",
+            "uneven texture, shiny forehead and nose, dry patches"
+        ],
+        "responses": "You have Combination Skin. This means some areas of your face are oily (especially the T-zone) while others are dry.<br>Recommended actions:<br>1. Use a gentle, balanced cleanser.<br>2. Apply lightweight, oil-free moisturizers.<br>3. Exfoliate once or twice a week to remove dead skin cells.<br>4. Use different products for different areas if needed.",
+        "Precaution": "To care for Combination Skin:<br>1. Use a gel-based or balancing moisturizer.<br>2. Apply blotting paper to control oil in the T-zone.<br>3. Avoid overly drying or greasy products.<br>4. Stay hydrated and maintain a healthy diet."
+    },
+    {
+        "tag": "Dry Skin",
+        "patterns": [
+            "rough skin, flakiness, tightness, dull complexion,Dry Skin",
+            "itchy, cracked skin, sensitive to weather changes"
+        ],
+        "responses": "You have Dry Skin. This means your skin lacks moisture and may feel tight, flaky, or irritated.<br>Recommended actions:<br>1. Use a hydrating, cream-based cleanser.<br>2. Apply thick, fragrance-free moisturizers regularly.<br>3. Avoid hot showers and harsh soaps.<br>4. Drink plenty of water to keep skin hydrated.",
+        "Precaution": "To care for Dry Skin:<br>1. Use a moisturizer with hyaluronic acid or ceramides.<br>2. Avoid alcohol-based skincare products.<br>3. Protect your skin from harsh weather by using sunscreen.<br>4. Consider using a humidifier to add moisture to the air."
+    },
+    {
+        "tag": "Normal Skin",
+        "patterns": [
+            "balanced skin, neither too oily nor too dry, smooth texture",
+            "few breakouts, even complexion, minimal sensitivity"
+        ],
+        "responses": "You have Normal Skin. This means your skin is well-balanced, not too oily or too dry.<br>Recommended actions:<br>1. Follow a simple skincare routine with a gentle cleanser and moisturizer.<br>2. Use sunscreen daily to protect against UV damage.<br>3. Exfoliate 1-2 times per week for healthy skin.<br>4. Maintain a balanced diet to keep skin glowing.",
+        "Precaution": "To care for Normal Skin:<br>1. Stick to a consistent skincare routine.<br>2. Stay hydrated and eat nutrient-rich foods.<br>3. Protect your skin from the sun with SPF 30+.<br>4. Avoid unnecessary skincare products that may disrupt your skin’s balance."
+    },
+    {
+        "tag": "Oily Skin",
+        "patterns": [
+            "shiny face, enlarged pores, frequent breakouts,Oily Skin",
+            "greasy skin, makeup doesn't last, clogged pores"
+        ],
+        "responses": "You have Oily Skin. This means your skin produces excess sebum, leading to shine and potential breakouts.<br>Recommended actions:<br>1. Wash your face twice daily with an oil-control cleanser.<br>2. Use oil-free and non-comedogenic skincare products.<br>3. Apply a lightweight, mattifying moisturizer.<br>4. Use blotting paper throughout the day to control excess oil.",
+        "Precaution": "To care for Oily Skin:<br>1. Avoid heavy, greasy skincare products.<br>2. Use clay masks to help absorb excess oil.<br>3. Don't over-wash your face, as it can increase oil production.<br>4. Stick to an oil-free, balanced skincare routine."
+    },
+    {
+        "tag": "Sensitive Skin",
+        "patterns": [
+            "redness, irritation, burning sensation, reaction to products,Sensitive Skin",
+            "easily irritated, stinging feeling, dry patches"
+        ],
+        "responses": "You have Sensitive Skin. This means your skin is easily irritated by skincare products, environmental factors, or allergens.<br>Recommended actions:<br>1. Use fragrance-free and hypoallergenic skincare products.<br>2. Avoid harsh ingredients like alcohol, sulfates, and artificial fragrances.<br>3. Perform patch tests before trying new products.<br>4. Use soothing ingredients like aloe vera and chamomile.",
+        "Precaution": "To care for Sensitive Skin:<br>1. Choose gentle, fragrance-free skincare products.<br>2. Avoid extreme weather conditions and allergens.<br>3. Always do a patch test before using new products.<br>4. Keep skincare routines minimal to avoid irritation."
+    },
+    {
+        "tag": "Wrinkles",
+        "patterns": [
+            "fine lines, sagging skin, loss of elasticity, Wrinkles",
+            "deep wrinkles, dull skin, visible aging signs"
+        ],
+        "responses": "You have signs of Wrinkles. This means your skin is experiencing a loss of collagen and elasticity, leading to fine lines and sagging.<br>Recommended actions:<br>1. Use anti-aging skincare with retinol and peptides.<br>2. Keep skin hydrated with hyaluronic acid-based products.<br>3. Wear sunscreen daily to prevent further aging.<br>4. Consider facial massages and a healthy diet rich in antioxidants.",
+        "Precaution": "To reduce Wrinkles:<br>1. Use skincare products with retinol, vitamin C, and hyaluronic acid.<br>2. Stay hydrated and eat antioxidant-rich foods.<br>3. Avoid excessive sun exposure and always wear SPF 30+.<br>4. Follow a regular skincare routine that includes moisturizing and sun protection."
+    },
+       {
+    "tag": "Blackheads",
+    "patterns": [
+        "small black spots on skin, clogged pores",
+        "blackheads on nose, tiny black bumps on face",
+        "black spots on face, rough skin texture"
+    ],
+    "responses": "You may have Blackheads. Blackheads are a type of acne caused by clogged pores due to excess oil, dead skin cells, and bacteria. They appear black because of oxidation when exposed to air.<br>To manage Blackheads, consider the following:<br>1. Wash your face twice daily with a gentle cleanser.<br>2. Use salicylic acid or benzoyl peroxide to unclog pores.<br>3. Avoid squeezing blackheads to prevent scarring.<br>4. Consider professional treatments like chemical peels or extractions.",
+    "Precaution": "To prevent Blackheads:<br>1. Maintain a proper skincare routine with regular cleansing.<br>2. Use non-comedogenic (oil-free) skincare and makeup products.<br>3. Avoid touching your face frequently.<br>4. Exfoliate gently with products containing salicylic acid."
+},
+        {
+    "tag": "Whiteheads",
+    "patterns": [
+        "small white bumps on skin, clogged pores",
+        "whiteheads on face, tiny white spots on nose",
+        "white spots on skin, skin feels rough"
+    ],
+    "responses": "You may have Whiteheads. Whiteheads are a type of acne caused by clogged pores due to excess oil, dead skin cells, and bacteria. Unlike blackheads, they remain covered by a thin layer of skin, giving them a white appearance.<br>To manage Whiteheads, consider the following:<br>1. Wash your face twice daily with a gentle cleanser.<br>2. Use products with salicylic acid or benzoyl peroxide to unclog pores.<br>3. Avoid squeezing whiteheads to prevent scarring and infection.<br>4. Consider professional treatments like chemical peels or microdermabrasion.",
+    "Precaution": "To prevent Whiteheads:<br>1. Maintain a regular skincare routine with gentle cleansing.<br>2. Use non-comedogenic (oil-free) skincare and makeup products.<br>3. Avoid excessive scrubbing or using harsh skincare products.<br>4. Keep your hands and phone clean to reduce bacteria transfer."
+},
+       {
+    "tag": "Rosacea",
+    "patterns": [
+        "redness on face, visible blood vessels",
+        "flushing, persistent facial redness, burning sensation",
+        "red bumps on face, swollen skin, sensitive skin"
+    ],
+    "responses": "You may have Rosacea. Rosacea is a chronic skin condition that causes redness, visible blood vessels, and sometimes small, red, pus-filled bumps on the face. It can worsen over time if left untreated.<br>To manage Rosacea, consider the following:<br>1. Avoid triggers like spicy foods, alcohol, stress, and extreme temperatures.<br>2. Use gentle, fragrance-free skincare products.<br>3. Apply sunscreen daily to protect your skin from UV rays.<br>4. Consult a dermatologist for prescription treatments, such as topical creams or laser therapy.",
+    "Precaution": "To prevent Rosacea flare-ups:<br>1. Identify and avoid common triggers like sun exposure and hot beverages.<br>2. Use a mild, non-irritating skincare routine.<br>3. Protect your skin with sunscreen (SPF 30 or higher).<br>4. Consider medical treatments like antibiotics or laser therapy if recommended by a doctor."
+},
+        {
+    "tag": "Vitiligo",
+    "patterns": [
+        "loss of skin color in patches",
+        "white patches on skin",
+        "skin discoloration with no itching or pain"
+    ],
+    "responses": "You may have Vitiligo. Vitiligo is a long-term skin condition where patches of skin lose their pigment due to the destruction of melanocytes.<br>To manage Vitiligo, consider the following: <br>1. Protect your skin from sun exposure by using sunscreen.<br>2. Use topical treatments such as corticosteroids or calcineurin inhibitors as prescribed.<br>3. Consider phototherapy or laser treatment for repigmentation.<br>4. Seek advice from a dermatologist for advanced treatment options.",
+    "Precaution": "To manage Vitiligo:<br>1. Avoid excessive sun exposure and use broad-spectrum sunscreen.<br>2. Maintain skin hydration and use gentle skincare products.<br>3. Follow a healthy diet to support skin health.<br>4. Consult a dermatologist for medical treatment options."
+}
+
+
+    ]
+}
+    
